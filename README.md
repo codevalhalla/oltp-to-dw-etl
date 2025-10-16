@@ -72,7 +72,7 @@ Update the connection strings in `scripts/etl_upsert.py` if necessary:
 ```python
 connection_string_oltp = "oracle+oracledb://oltp:oracle@<HOST>:1521/?service_name=<SERVICE>"
 connection_string_dw   = "oracle+oracledb://dw_database:oracle@<HOST>:1521/?service_name=<SERVICE>"
-
+```
 ## Usage
 
 Run the ETL script:
